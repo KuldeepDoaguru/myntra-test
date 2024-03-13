@@ -56,5 +56,6 @@ const Container = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
     gap: 30px;
+    margin-bottom: 4rem;
   }
 `;

@@ -21,14 +21,14 @@ const Navbar = () => {
               {menu === "shop" ? <hr /> : ""}
             </li>
             <li onClick={() => setMenu("mens")}>
-              <Link to="/men">Men</Link>
+              <Link to="/mens">Men</Link>
               {menu === "mens" ? <hr /> : ""}
             </li>
             <li onClick={() => setMenu("womens")}>
-              <Link to="/women">Woman</Link> {menu === "womens" ? <hr /> : ""}
+              <Link to="/womens">Woman</Link> {menu === "womens" ? <hr /> : ""}
             </li>
             <li onClick={() => setMenu("kids")}>
-              <Link to="/kid">Kids</Link> {menu === "kids" ? <hr /> : ""}
+              <Link to="/kids">Kids</Link> {menu === "kids" ? <hr /> : ""}
             </li>
           </ul>
           <div className="nav-login-cart">

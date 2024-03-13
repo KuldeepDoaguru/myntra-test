@@ -5,7 +5,7 @@ const NewsLetter = () => {
   return (
     <>
       <Container>
-        <div className="newsletter">
+        <div className="container newsletter">
           <h1>Get Exclusive Offers on Your Email</h1>
           <p>Subscribe to our newsletter and stay updated</p>
           <div>
@@ -21,7 +21,7 @@ const NewsLetter = () => {
 export default NewsLetter;
 const Container = styled.div`
   .newsletter {
-    width: 65%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ const Container = styled.div`
     padding: 0px 140px;
     margin-bottom: 150px;
     gap: 30px;
-    background: linear-gradient(180deg), #fde1ff 0%, #e1ffea22 60%;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
     h1 {
       color: #454545;
       font-size: 55px;
