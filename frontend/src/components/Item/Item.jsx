@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Item = (props) => {
@@ -6,6 +7,7 @@ const Item = (props) => {
     <>
       <Container>
         <div className="item">
+          <Link />
           <img src={props.image} alt="" />
           <p>{props.name}</p>
           <div className="item-prices">

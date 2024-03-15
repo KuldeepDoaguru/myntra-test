@@ -5,7 +5,7 @@ const NewsLetter = () => {
   return (
     <>
       <Container>
-        <div className="container newsletter">
+        <div className="container-fluid newsletter">
           <h1>Get Exclusive Offers on Your Email</h1>
           <p>Subscribe to our newsletter and stay updated</p>
           <div>

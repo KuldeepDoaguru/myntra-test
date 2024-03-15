@@ -6,7 +6,7 @@ const Offers = () => {
   return (
     <>
       <Container>
-        <div className="container offers">
+        <div className="container-fluid offers">
           <div className="offers-left">
             <h1>Exclusive</h1>
             <h1>Offers For You</h1>
