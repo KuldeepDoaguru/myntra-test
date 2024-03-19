@@ -18,4 +18,15 @@ const Breadcrum = (props) => {
 };
 
 export default Breadcrum;
-const Container = styled.div``;
+const Container = styled.div`
+  .breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+  }
+`;
