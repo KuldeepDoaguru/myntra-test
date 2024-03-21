@@ -37,7 +37,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    height: 100%;
     h1 {
       color: #171717;
       font-size: 50px;
@@ -49,5 +49,12 @@ const Container = styled.div`
       border-radius: 10px;
       background: #252525;
     }
+  }
+
+  .relatedproducts-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 3rem;
   }
 `;
